@@ -12,6 +12,7 @@ import org.springframework.transaction.annotation.Transactional;
 import pet.store.controller.model.PetStoreData;
 import pet.store.controller.model.PetStoreData.PetStoreCustomer;
 import pet.store.controller.model.PetStoreData.PetStoreEmployee;
+import pet.store.dao.CustomerDao;
 import pet.store.dao.EmployeeDao;
 import pet.store.dao.PetStoreDao;
 import pet.store.entity.Customer;
